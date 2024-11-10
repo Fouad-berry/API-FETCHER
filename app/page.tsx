@@ -97,7 +97,7 @@ const Page: React.FC = () => {
               width: '100%',
             }}
           >
-            <h2>Commentaires pour le post {selectedPost.id}</h2>
+            <h2>Les commentaires pour le post {selectedPost.id}</h2>
             <button
               onClick={closeModal}
               style={{
